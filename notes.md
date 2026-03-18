@@ -1,5 +1,7 @@
 # Linux Notes
 
+#Linux Basics 
+
 1. Echo: Prints the text on terminal
  ``` 
  echo
@@ -43,3 +45,5 @@ whoami
 14. rm -remove
 
 15. exit
+
+16. man - manual of any command if not understanding.
