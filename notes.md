@@ -163,3 +163,122 @@ exit
 * Be careful with rm (no undo)
 
 16. man - manual of any command if not understanding.
+
+# User Management (Linux)
+
+## 1. useradd
+
+Creates a new user.
+
+
+sudo useradd username
+
+
+---
+
+## 2. passwd
+
+Sets or changes password of a user.
+
+
+sudo passwd username
+
+
+---
+
+## 3. usermod
+
+Modifies an existing user.
+
+
+sudo usermod username
+
+
+---
+
+## 4. userdel
+
+Deletes a user.
+
+
+sudo userdel username
+
+
+---
+
+## 5. groupadd
+
+Creates a new group.
+
+
+sudo groupadd groupname
+
+
+---
+
+## 6. groupdel
+
+Deletes a group.
+
+
+sudo groupdel groupname
+
+
+---
+
+## 7. usermod -aG
+
+Adds a user to a group.
+
+
+sudo usermod -aG groupname username
+
+
+---
+
+## 8. whoami
+
+Displays current logged-in user.
+
+
+whoami
+
+
+---
+
+## 9. id
+
+Shows user ID (UID), group ID (GID), and groups.
+
+
+id
+
+
+---
+
+## 10. groups
+
+Shows groups of a user.
+
+
+groups username
+
+
+---
+
+## 11. su
+
+Switches to another user.
+
+
+su username
+
+
+---
+
+## 12. sudo
+
+Runs command as root.
+
+
+sudo command
