@@ -121,13 +121,17 @@ Clears the terminal screen.
 clear
 ```
 
-## 11. mv
+## 11. mv and cp
 
 Moves or renames files.
 
 ```
 mv oldname.txt newname.txt
 mv file.txt /path/to/destination/
+```
+
+```
+cp file_name folder_path/
 ```
 
 ## 12. mkdir
@@ -144,6 +148,7 @@ Removes files or directories.
 
 ```
 rm file.txt
+rm -rf folder_name
 ```
 
 Note: This action is permanent.
